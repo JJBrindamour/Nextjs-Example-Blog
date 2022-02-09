@@ -3,6 +3,9 @@
 /.pnp
 .pnp.js
 
+# Replit
+.replit
+
 # testing
 /coverage
 
