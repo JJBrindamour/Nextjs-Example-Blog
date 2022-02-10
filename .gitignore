@@ -6,6 +6,9 @@
 # Replit
 .replit
 
+# Environment Variables
+.env
+
 # testing
 /coverage
 
