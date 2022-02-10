@@ -44,6 +44,8 @@ const CommentsForm = ({ slug }) => {
         setShowSuccessMessage(false);
       }, 5000)
     })
+
+    commentEl.current.value = '';
   }
 
   return (

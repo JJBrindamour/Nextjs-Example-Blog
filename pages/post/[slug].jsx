@@ -45,7 +45,6 @@ export async function getStaticProps({ params }) {
 
   return {
     props: { post: data },
-		fallback: true
   }
 }
 
@@ -53,6 +52,6 @@ export async function getStaticPaths() {
 	const posts = await getPosts();
 	return {
 		paths: posts.map(({ node: { slug } }) => ({ params: { slug } })),
-		fallback: false
+		fallback: true
 	}
 }
